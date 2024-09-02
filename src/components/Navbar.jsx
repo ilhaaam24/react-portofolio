@@ -40,7 +40,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button className="hidden md:block border rounded-full py-1 px-3">Contact</button>
+        <button className="hidden md:block border rounded-full py-1 px-3 hover:bg-[#697565]">Contact</button>
         {/* Mobile Menu */}
         <ul className={`fixed top-0 right-0 w-1/2 h-screen bg-[#3C3D37]  py-6  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}>
           <li className="absolute top-4 right-4">
