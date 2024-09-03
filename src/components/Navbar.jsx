@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -9,12 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container w-full mx-auto px-16 py-4">
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center container w-full mx-auto px-16 py-4 fixed top-0 right-0 left-0">
         <div className="text-2xl font-bold">Logo</div>
         <div className="block md:hidden">
           <button onClick={toggleMenu} className="text-2xl">
-            {open ? <FaTimes className="hidden"/> : <FaBars />}
+            {open ? <FaTimes className="hidden" /> : <FaBars />}
           </button>
         </div>
         {/* Desktop Menu */}
@@ -40,7 +40,9 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button className="hidden md:block border rounded-full py-1 px-3 hover:bg-[#697565]">Contact</button>
+        <div>
+          <button className="hidden md:block border rounded-full py-1 px-3 hover:bg-[#697565]">Contact</button>
+        </div>
         {/* Mobile Menu */}
         <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
           <li className="absolute top-4 right-4">
@@ -73,7 +75,6 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </div>
   );
 };
 
