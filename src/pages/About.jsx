@@ -19,11 +19,11 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="mt-8">
-        <p className="text-center text-md md:text-lg">Here are some technologies I've been working with:</p>
+      <div className="mt-8 w-1/2">
+        {/* <p className="text-center text-md md:text-lg">Here are some technologies I've been working with:</p> */}
         <div className="flex overflow-hidden gap-6">
-          <div className="flex animate-loop-scroll space-x-16">
-            <ul className="flex flex-wrap justify-center items-center gap-6 mt-4">
+          <div className="flex  animate-loop-scroll space-x-16">
+            <ul className="flex justify-center items-center gap-6 mt-4">
               <li className="text-3xl md:text-6xl max-w-none">
                 <FaHtml5 />
               </li>
@@ -52,7 +52,7 @@ const About = () => {
           </div>
           <div className="">
             <div className="flex animate-loop-scroll space-x-16">
-              <ul className="flex flex-wrap justify-center items-center gap-6 mt-4">
+              <ul className="flex  justify-center items-center gap-6 mt-4">
                 <li className="text-3xl md:text-6xl max-w-none">
                   <FaHtml5 />
                 </li>
