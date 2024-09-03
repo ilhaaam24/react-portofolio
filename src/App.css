@@ -8,3 +8,38 @@ body{
   background-color:#1E201E;
   color: #ECDFCC;
 }
+
+/* Definisi animasi scrolling ke kiri */
+
+/* Definisi animasi scrolling ke kiri */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mengaplikasikan animasi ke logo */
+.infinite-scroll {
+  display: flex;
+  align-items: center;
+  animation: scrollLeft 25s linear infinite;
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Untuk memastikan animasi mulus */
+.scroll-content {
+  white-space: nowrap;
+}
