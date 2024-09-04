@@ -5,7 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center  md:p-10 gap-16  ">
+    <div className="flex flex-col items-center  md:p-6 gap-16  ">
       <div className="flex-1 flex flex-col items-center  ">
         <h1 className="text-3xl md:text-4xl font-bold text-center md:text-left">About Me</h1>
         <p className="text-sm md:text-xl text-center  mt-4 w-3/4">
