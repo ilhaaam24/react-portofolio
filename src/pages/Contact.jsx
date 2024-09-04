@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-16">
+    <div id="contact" className="flex flex-col items-center justify-center min-h-screen gap-16">
       <h1 className="text-4xl font-bold">Get in touch </h1>
       <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-16 p-4">
         <div className="flex flex-col gap-4 md:gap-8">

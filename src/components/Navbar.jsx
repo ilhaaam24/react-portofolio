@@ -10,71 +10,73 @@ const Navbar = () => {
   };
 
   return (
-      <nav className="flex justify-between items-center container w-full mx-auto px-16 py-4 fixed top-0 right-0 left-0">
-        <div className="text-2xl font-bold">Logo</div>
-        <div className="block md:hidden">
-          <button onClick={toggleMenu} className="text-2xl">
-            {open ? <FaTimes className="hidden" /> : <FaBars />}
-          </button>
-        </div>
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center gap-6">
-          <li className="lg:ml-4">
-            <a href="" className="block py-2 px-4 lg:px-0">
-              Home
-            </a>
-          </li>
-          <li className="lg:ml-4">
-            <a href="" className="block py-2 px-4 lg:px-0">
-              About
-            </a>
-          </li>
-          <li className="lg:ml-4">
-            <a href="" className="block py-2 px-4 lg:px-0">
-              Project
-            </a>
-          </li>
-          <li className="lg:ml-4">
-            <a href="" className="block py-2 px-4 lg:px-0">
-              Service
-            </a>
-          </li>
-        </ul>
-        <div>
-          <button className="hidden md:block border rounded-full py-1 px-3 hover:bg-[#697565]">Contact</button>
-        </div>
-        {/* Mobile Menu */}
-        <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
-          <li className="absolute top-4 right-4">
-            <FaTimes className=" text-2xl cursor-pointer" onClick={toggleMenu} />
-          </li>
-          <li className=" border-[#697565]">
-            <a href="" className="block py-2 px-6 text-left text-lg" onClick={toggleMenu}>
-              Home
-            </a>
-          </li>
-          <li className=" border-[#697565]">
-            <a href="" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
-              About
-            </a>
-          </li>
-          <li className=" border-[#697565]">
-            <a href="" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
-              Project
-            </a>
-          </li>
-          <li className=" border-[#697565]">
-            <a href="" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
-              Service
-            </a>
-          </li>
-          <li className=" border-[#697565]">
-            <a href="" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <nav className="flex justify-between items-center container w-full mx-auto px-16 py-4 fixed top-0 left-0">
+      <div className="text-2xl font-bold">Logo</div>
+      <div className="block md:hidden">
+        <button onClick={toggleMenu} className="text-2xl">
+          {open ? <FaTimes className="hidden" /> : <FaBars />}
+        </button>
+      </div>
+      {/* Desktop Menu */}
+      <ul className="hidden md:flex items-center gap-6">
+        <li className="lg:ml-4">
+          <a href="" className="block py-2 px-4 lg:px-0">
+            Home
+          </a>
+        </li>
+        <li className="lg:ml-4">
+          <a href="#about" className="block py-2 px-4 lg:px-0">
+            About
+          </a>
+        </li>
+        <li className="lg:ml-4">
+          <a href=" #project" className="block py-2 px-4 lg:px-0">
+            Project
+          </a>
+        </li>
+        <li className="lg:ml-4">
+          <a href="" className="block py-2 px-4 lg:px-0">
+            Service
+          </a>
+        </li>
+      </ul>
+      <div className="hidden md:block">
+        <a href="#contact" className=" border rounded-full py-1 px-3 hover:bg-[#697565]">
+          Contact
+        </a>
+      </div>
+      {/* Mobile Menu */}
+      <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
+        <li className="absolute top-4 right-4">
+          <FaTimes className=" text-2xl cursor-pointer" onClick={toggleMenu} />
+        </li>
+        <li className=" border-[#697565]">
+          <a href="#" className="block py-2 px-6 text-left text-lg" onClick={toggleMenu}>
+            Home
+          </a>
+        </li>
+        <li className=" border-[#697565]">
+          <a href="#about" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
+            About
+          </a>
+        </li>
+        <li className=" border-[#697565]">
+          <a href="#project" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
+            Project
+          </a>
+        </li>
+        <li className=" border-[#697565]">
+          <a href="" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
+            Service
+          </a>
+        </li>
+        <li className=" border-[#697565]">
+          <a href="#contact" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

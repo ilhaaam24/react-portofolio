@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex  flex-col-reverse  py-20 px-6 gap-8 h-auto lg:min-h-screen  lg:flex-row md:px-32 lg:justify-evenly lg:items-center  ">
+    <div className="flex  flex-col-reverse  py-20 px-6 gap-8 h-auto   lg:flex-row md:px-32 lg:justify-evenly lg:items-center  ">
       <div className="flex-1 flex flex-col justify-center items-start px-4">
         <p className="text-4xl font-bold md:text-5xl">Hey, I'am a</p>
         <h1 className="text-4xl mt-3 font-bold md:text-5xl ">Fullstack Developer</h1>
