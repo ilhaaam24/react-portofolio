@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="hidden md:block">
-        <a href="#contact" className=" border rounded-full py-1 px-3 hover:bg-[#697565]">
+        <a href="#contact" className=" border border-[#1a2019] rounded-full text-sm py-1 px-3 hover:bg-[#1a2019] hover:text-white">
           Contact
         </a>
       </div>
