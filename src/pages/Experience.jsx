@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaBootstrap, FaGithub, FaLaravel } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
