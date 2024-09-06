@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div id="contact"  className="flex flex-col min-h-screen">
       {/* Container for contact info */}
-      <div id="contact" className="flex flex-col items-center justify-center flex-grow my-12 ">
+      <div className="flex flex-col items-center justify-center flex-grow my-12 ">
         <p className="text-sm text-gray-600">Get in Touch</p>
         <h1 className="text-3xl font-bold">Contact Me</h1>
         <div className="flex flex-col gap-6 mt-6 md:flex-row items-center border-2 border-gray-600 rounded-3xl py-8 px-4">
