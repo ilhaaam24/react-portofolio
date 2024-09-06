@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center gap-6">
         <li className="lg:ml-4">
-          <a href="" className="block py-2 px-4 lg:px-0">
+          <a href="#" className="block py-2 px-4 lg:px-0">
             Home
           </a>
         </li>
