@@ -6,7 +6,7 @@ const Project = () => {
       <h1 className="text-3xl font-bold mb-8">My Projects</h1>
       <div className="flex flex-wrap justify-center gap-10 w-full max-w-screen-lg">
         {/* Card 1 */}
-        <Card/>
+        <Card />
         <Card/>
         <Card/>
         <Card/>

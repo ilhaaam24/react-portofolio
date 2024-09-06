@@ -1,8 +1,5 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-
-
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,22 +19,22 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center gap-6">
         <li className="lg:ml-4">
-          <a href="#about" className="block py-2 px-4 lg:px-0">
+          <a href="#about" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
             About
           </a>
         </li>
         <li className="lg:ml-4">
-          <a href="#experience" className="block py-2 px-4 lg:px-0">
+          <a href="#experience" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
             Experience
           </a>
         </li>
         <li className="lg:ml-4">
-          <a href=" #project" className="block py-2 px-4 lg:px-0">
+          <a href=" #project" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
             Project
           </a>
         </li>
         <li className="lg:ml-4">
-          <a href="" className="block py-2 px-4 lg:px-0">
+          <a href="" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
             Service
           </a>
         </li>
@@ -48,7 +45,7 @@ const Navbar = () => {
         </a>
       </div>
       {/* Mobile Menu */}
-      <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] text-white rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
+      <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] text-white rounded-lg py-6 opacity-90 z-10  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
         <li className="absolute top-4 right-4">
           <FaTimes className=" text-2xl cursor-pointer animate-rotate" onClick={toggleMenu} />
         </li>

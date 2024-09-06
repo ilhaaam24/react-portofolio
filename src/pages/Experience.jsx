@@ -7,14 +7,14 @@ const Experience = () => {
   return (
     <div id="experience" className="flex flex-col items-center justify-center gap-10 px-2 min-h-screen">
       <div className="text-center">
-        <p className="text-xl text-gray-600">Explore</p>
+        <p className="text-lg text-gray-600">Explore</p>
         <h1 className="text-3xl font-bold">My Experience</h1>
       </div>
       {/* Container for Frontend and Backend */}
       <div className="flex flex-col md:flex-row items-start justify-center gap-10 px-4">
         {/* Frontend Development */}
-        <div className="flex flex-col items-center gap-6 justify-start border-2 border-gray-600 rounded-3xl py-8 px-4 w-full md:w-1/2 min-h-[320px]">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-600">Frontend Development</h1>
+        <div className="flex flex-col items-center gap-6 justify-start border border-gray-600 rounded-3xl py-8 px-4 w-full md:w-1/2 min-h-[320px]">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-600">Frontend Development</h1>
           <ul className="flex flex-wrap justify-center items-center gap-12 mt-4">
             <li className="text-6xl md:text-6xl" style={{ color: "#E34F26" }}>
               <FaHtml5 />
@@ -37,8 +37,8 @@ const Experience = () => {
           </ul>
         </div>
         {/* Backend Development */}
-        <div className="flex flex-col items-center gap-6 md:justify-start border-2 border-gray-600 rounded-3xl px-4 py-8 w-full md:w-1/2 md:min-h-[320px]">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-600">Backend Development</h1>
+        <div className="flex flex-col items-center gap-6 md:justify-start border border-gray-600 rounded-3xl px-4 py-8 w-full md:w-1/2 md:min-h-[320px]">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-600">Backend Development</h1>
           <ul className="flex flex-wrap justify-center items-center gap-12 mt-4">
             <li className="text-6xl md:text-6xl" style={{ color: "#339933" }}>
               <FaNodeJs />
