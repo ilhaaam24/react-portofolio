@@ -43,9 +43,9 @@ const Navbar = () => {
         </a>
       </div>
       {/* Mobile Menu */}
-      <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
+      <ul className={`fixed flex flex-col top-4 right-4 w-1/2 lg:w-1/3 max-h-96 bg-[#3C3D37] text-white rounded-lg py-6 opacity-90  md:hidden ease-in-out duration-300 ${open ? "translate-x-0" : "hidden"}`}>
         <li className="absolute top-4 right-4">
-          <FaTimes className=" text-2xl cursor-pointer" onClick={toggleMenu} />
+          <FaTimes className=" text-2xl cursor-pointer animate-rotate" onClick={toggleMenu} />
         </li>
         <li className=" border-[#697565]">
           <a href="#" className="block py-2 px-6 text-left text-lg" onClick={toggleMenu}>

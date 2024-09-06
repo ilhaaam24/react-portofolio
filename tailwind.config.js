@@ -4,15 +4,16 @@ export default {
   theme: {
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 40s linear infinite",
+        rotate: "rotate 0.8s ease-in-out 1",
       },
+
       keyframes: {
-        "loop-scroll": {
-          from: {
-            transform: "translateX(0)",
+        rotate: {
+          "0%": {
+            transform: "rotate(0deg)",
           },
-          to: {
-            transform: "translateX(-100%)",
+          "100%": {
+            transform: "rotate(360deg)",
           },
         },
       },
