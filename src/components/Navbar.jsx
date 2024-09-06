@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center container w-full mx-auto px-16 py-4 fixed top-0 left-0">
-      <div className="text-2xl font-bold font-mono">Iam</div>
+      <div className="text-2xl font-bold font-mono">Iam<span className="text-[#485645]">.</span></div>
       <div className="block md:hidden">
         <button onClick={toggleMenu} className="text-2xl">
           {open ? <FaTimes className="hidden" /> : <FaBars />}
