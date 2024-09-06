@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
@@ -22,10 +21,10 @@ const Home = () => {
           </a>
         </div>
         <div className="flex gap-4 justify-center items-center">
-          <a href="">
+          <a href="https://github.com/ilhaaam24" target="_blank">
             <FaGithub size={40} />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/muhammad-ilham24" target="_blank">
             <FaLinkedin size={40} />
           </a>
         </div>
