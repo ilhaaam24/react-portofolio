@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center container w-full mx-auto px-16 py-4 fixed top-0 left-0">
-      <div className="text-2xl font-bold">Logo</div>
+      <div className="text-2xl font-bold font-mono">Iam</div>
       <div className="block md:hidden">
         <button onClick={toggleMenu} className="text-2xl">
           {open ? <FaTimes className="hidden" /> : <FaBars />}
@@ -24,6 +24,11 @@ const Navbar = () => {
         <li className="lg:ml-4">
           <a href="#about" className="block py-2 px-4 lg:px-0">
             About
+          </a>
+        </li>
+        <li className="lg:ml-4">
+          <a href="#experience" className="block py-2 px-4 lg:px-0">
+            Experience
           </a>
         </li>
         <li className="lg:ml-4">

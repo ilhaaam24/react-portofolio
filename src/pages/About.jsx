@@ -13,35 +13,7 @@ const About = () => {
           world has been both challenging and rewarding, and I thrive on solving problems and creating innovative solutions. Whether it's mastering new frameworks or building dynamic websites, 
         </p>
       </div>
-        <ul className="flex-1 flex flex-wrap justify-center items-center w-3/4 min-w-screen gap-6 mt-4">
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaHtml5 />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaCss3 />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaBootstrap />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <RiTailwindCssFill />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <IoLogoJavascript />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaReact />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaNodeJs />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaGithub />
-          </li>
-          <li className="text-3xl md:text-6xl max-w-none">
-            <FaLaravel />
-          </li>
-        </ul>
+      
     </div>
   );
 };
