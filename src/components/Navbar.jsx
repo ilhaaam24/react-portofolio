@@ -33,11 +33,7 @@ const Navbar = () => {
             Project
           </a>
         </li>
-        <li className="lg:ml-4">
-          <a href="" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
-            Service
-          </a>
-        </li>
+       
       </ul>
       <div className="hidden md:block">
         <a href="#contact" className=" border border-[#1a2019] rounded-full text-sm py-1 px-3 hover:bg-[#1a2019] hover:text-white">
@@ -60,13 +56,13 @@ const Navbar = () => {
           </a>
         </li>
         <li className=" border-[#697565]">
-          <a href="#project" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
-            Project
+          <a href="#experience" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
+            Experience
           </a>
         </li>
         <li className=" border-[#697565]">
-          <a href="" className="block py-2 px-6 text-lg" onClick={toggleMenu}>
-            Service
+          <a href="#project" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
+            Project
           </a>
         </li>
         <li className=" border-[#697565]">
