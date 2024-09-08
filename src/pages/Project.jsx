@@ -3,12 +3,12 @@ const Project = () => {
     {
       title: "Weather App",
       tool: "HTML, CSS, Javascript",
-      image: "../public/assets/projects/weatherapp.png",
+      image: "/assets/projects/weatherapp.png",
     },
     {
       title: "Hotel Booking App",
       tool: "Laravel 11, Tailwind, Mysql",
-      image: "../public/assets/projects/hotelapp.png",
+      image: "/assets/projects/hotelapp.png",
     },
   ];
   return (

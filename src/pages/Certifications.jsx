@@ -6,32 +6,32 @@ const Certifications = () => {
       title: " Belajar Dasar Pemrograman Web",
       issuer: "Dicoding",
       credentialId: "GRX52E6Q3X0M",
-      image: "../public/assets/certifications/web.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/web.jpg", // Ganti dengan URL gambar sertifikat
     },
     {
       title: "Belajar Dasar Pemrograman JavaScript",
       issuer: "Dicoding",
       credentialId: "JMZVDKL43ZN9",
-      image: "../public/assets/certifications/javaScript.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/javaScript.jpg", // Ganti dengan URL gambar sertifikat
     },
     {
       title: " Belajar Membuat Front-End Web untuk Pemula",
       issuer: "Dicoding",
       credentialId: "81P2VNKRYPOY",
-      image: "../public/assets/certifications/webpemula.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/webpemula.jpg", // Ganti dengan URL gambar sertifikat
     },
     {
       title: " Belajar Membuat Aplikasi Back-End untuk Pemula",
       issuer: "Dicoding",
       credentialId: "53XEO54KYZRN",
-      image: "../public/assets/certifications/bepemula.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/bepemula.jpg", // Ganti dengan URL gambar sertifikat
     },
 
     {
       title: "Responsive Web Design",
       issuer: "Freecodecamp",
       credentialId: "fcc71692c8b-53a5-43ab-be8e-ccd55f003509",
-      image: "../public/assets/certifications/freecodecamp.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/freecodecamp.jpg", // Ganti dengan URL gambar sertifikat
     },
     // Tambahkan sertifikat lainnya sesuai kebutuhan
   ];

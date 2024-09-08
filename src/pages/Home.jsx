@@ -6,7 +6,7 @@ const Home = () => {
     <div className="flex flex-col py-20 px-6 h-auto min-h-screen justify-evenly lg:flex-row lg:justify-center lg:items-center lg:gap-24">
       {/* Profile Image with animation */}
       <motion.div className="flex justify-center items-center" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-        <img src="../public/assets/profile.jpg" alt="Profile" className="rounded-full h-[250px] w-[250px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px] object-cover" />
+        <img src="/assets/profile.jpg" alt="Profile" className="rounded-full h-[250px] w-[250px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px] object-cover" />
       </motion.div>
 
       {/* Text Section with animation */}
