@@ -12,7 +12,7 @@ const Certifications = () => {
       title: "Belajar Dasar Pemrograman JavaScript",
       issuer: "Dicoding",
       credentialId: "JMZVDKL43ZN9",
-      image: "/assets/certifications/javaScript.jpg", // Ganti dengan URL gambar sertifikat
+      image: "/assets/certifications/javascript.jpg", // Ganti dengan URL gambar sertifikat
     },
     {
       title: " Belajar Membuat Front-End Web untuk Pemula",
