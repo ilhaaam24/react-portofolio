@@ -1,16 +1,32 @@
-import Card from "../components/Card";
-
 const Project = () => {
+  const projects = [
+    {
+      title: "Weather App",
+      tool: "HTML, CSS, Javascript",
+      image: "../public/assets/projects/weatherapp.png",
+    },
+    {
+      title: "Hotel Booking App",
+      tool: "Laravel 11, Tailwind, Mysql",
+      image: "../public/assets/projects/hotelapp.png",
+    },
+  ];
   return (
     <div id="project" className="flex flex-col items-center justify-center min-h-screen p-4 gap-4 mt-8  ">
-      <h1 className="text-3xl font-bold mb-8">My Projects</h1>
+      <div className="flex flex-col justify-center items-center">
+        <p className="text-sm text-gray-600">My recent</p>
+        <h1 className="text-3xl font-bold mb-8">Projects</h1>
+      </div>
       <div className="flex flex-wrap justify-center gap-10 w-full max-w-screen-lg">
-        {/* Card 1 */}
-        <Card />
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {projects.map((project, index) => (
+          <div className="flex flex-col  bg-white shadow-lg rounded-lg overflow-hidden h-[350px] w-[300px] hover:scale-105 duration-300" key={index}>
+            <img src={project.image} className="w-full h-[250px] object-cover" alt="Project 1" />
+            <div className="p-4">
+              <h2 className="text-md font-semibold">{project.title}</h2>
+              <p className="text-sm text-gray-600 mt-2">{project.tool}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
