@@ -8,7 +8,7 @@ const Experience = () => {
     <div id="experience" className="flex flex-col items-center justify-center gap-10 px-2 min-h-screen">
       <div className="text-center">
         <p className="text-lg text-gray-600">Explore</p>
-        <h1 className="text-3xl font-bold">My Experience</h1>
+        <h1 className="text-3xl font-bold">My Skills</h1>
       </div>
       {/* Container for Frontend and Backend */}
       <div className="flex flex-col md:flex-row items-start justify-center gap-10 px-4">

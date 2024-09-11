@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        rotate: "rotate 0.8s ease-in-out 1",
+        rotate: "rotate 0.5s ease ",
       },
 
       keyframes: {
@@ -13,7 +13,7 @@ export default {
             transform: "rotate(0deg)",
           },
           "100%": {
-            transform: "rotate(360deg)",
+            transform: "rotate(180deg)",
           },
         },
       },

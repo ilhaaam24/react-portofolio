@@ -25,12 +25,12 @@ const Navbar = () => {
         </li>
         <li className="lg:ml-4">
           <a href="#experience" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
-            Experience
+            Skills
           </a>
         </li>
         <li className="lg:ml-4">
           <a href=" #project" className="block py-2 px-4 lg:px-0 hover:text-[#485645] hover:scale-105 ease-in-out duration-300">
-            Project
+            Projects
           </a>
         </li>
        
@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
         <li className=" border-[#697565]">
           <a href="#experience" className="block py-2 px-6  text-lg" onClick={toggleMenu}>
-            Experience
+            Skills
           </a>
         </li>
         <li className=" border-[#697565]">

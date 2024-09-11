@@ -36,7 +36,7 @@ const About = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-center">About Me</h1>
       </motion.div>
       <div className="flex flex-col md:flex-row items-center justify-center  gap-8">
-        <motion.img src="/assets/aboutbw.jpg" className="w-[250px] h-[250px] border-2 rounded-xl object-cover i" alt="Profile" initial="hidden" animate={controls} variants={fadeInLeft} />
+        <motion.img src="/assets/aboutbw.jpg" loading="lazy" className="w-[250px] h-[250px] border-2 rounded-xl object-cover i" alt="Profile" initial="hidden" animate={controls} variants={fadeInLeft} />
         <motion.div className="flex justify-center items-center gap-6 w-1/2 md:h-[300px] flex-col" initial="hidden" animate={controls} variants={fadeInUp}>
           <div className="flex flex-col md:flex-row gap-8">
             <div className="flex flex-col items-center h-full  w-[350px] md:w-full border border-black p-6 rounded-xl text-center">
