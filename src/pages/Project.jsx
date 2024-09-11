@@ -9,7 +9,11 @@ const Project = () => {
       title: "Hotel Booking App",
       tool: "Laravel 11, Tailwind, Mysql",
       image: "/assets/projects/hotelapp.png",
-    },
+    },{
+      title: "Analisi Data Bike Sharing",
+      tool: "Python, Pandas, Matplotlib, Seaborn",
+      image: "/assets/projects/analisisdata.png",
+    }
   ];
   return (
     <div id="project" className="flex flex-col items-center justify-center min-h-screen p-4 gap-4 mt-8  ">
