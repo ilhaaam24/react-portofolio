@@ -53,7 +53,9 @@ const About = () => {
           </div>
           <div className="w-[350px] md:w-full  ">
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis autem adipisci ad, molestiae quae neque repellendus est accusantium dignissimos quam hic fuga facilis non sint laboriosam corrupti optio facere eaque.
+              Hello! My name is Muhammad Ilham, and I am a frontend developer currently studying at Universitas Negeri Surabaya. I am deeply passionate about expanding my skills and becoming a fullstack developer. With a strong
+              determination, I continue to learn and work on various projects to master both frontend and backend technologies. I believe that by combining these skills, I can reach my full potential as a versatile and well-rounded
+              developer.
             </p>
           </div>
         </motion.div>
