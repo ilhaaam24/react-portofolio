@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between px-10 md:justify-around items-center    w-full py-4 fixed top-0 ">
+    <nav className="flex justify-between shadow-sm bg-white px-10 md:justify-around items-center    w-full py-4 fixed top-0 ">
       <div className="text-2xl font-bold font-mono">Iam<span className="text-[#485645]">.</span></div>
       <div className="block md:hidden">
         <button onClick={toggleMenu} className="text-2xl">
