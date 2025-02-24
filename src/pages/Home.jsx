@@ -14,7 +14,7 @@ const Home = () => {
         <motion.div className="flex flex-col justify-center items-center " initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 1, duration: 0.8 }}>
           <p className="text-xl md:text-2xl text-center text-gray-800">Hello, I'm</p>
           <h2 className="text-3xl font-bold md:text-4xl text-black">Muhammad Ilham</h2>
-          <h1 className="text-xl md:text-2xl ">Frontend Developer</h1>
+          <h1 className="text-xl md:text-2xl ">Web Developer</h1>
         </motion.div>
 
         {/* Buttons with animation */}
