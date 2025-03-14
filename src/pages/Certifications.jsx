@@ -37,7 +37,7 @@ const Certifications = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-8">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-8 my-20">
       <h1 className="text-3xl font-bold">Certifications</h1>
       <div className="flex flex-wrap justify-center gap-10 w-full max-w-screen-lg">
         {certifications.map((cer, index) => (

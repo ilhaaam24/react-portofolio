@@ -30,33 +30,45 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="flex flex-col items-center justify-evenly  md:p-6 gap-6 md:min-h-screen md:py-10">
+    <div id="about" className="flex flex-col  justify-evenly  gap-6 md:min-h-screen md:py-10">
       <motion.div ref={ref} initial="hidden" animate={controls} variants={fadeInUp}>
-        <p className="text-sm text-gray-600 text-center">Get to know more</p>
+        <p className="text-sm text-gray-700 text-center">Get to know more</p>
         <h1 className="text-3xl md:text-4xl font-bold text-center">About Me</h1>
       </motion.div>
-      <div className="flex flex-col md:flex-row items-center justify-center  gap-8">
-        <motion.img src="/assets/aboutbw.jpg" loading="lazy" className="w-[250px] h-[250px] border-2 rounded-xl object-cover i" alt="Profile" initial="hidden" animate={controls} variants={fadeInLeft} />
-        <motion.div className="flex justify-center items-center gap-6 w-1/2 md:h-[300px] flex-col" initial="hidden" animate={controls} variants={fadeInUp}>
-          <div className="flex flex-col md:flex-row gap-8">
-            <div className="flex flex-col items-center h-full  w-[350px] md:w-full border border-black p-6 rounded-xl text-center">
-              <SlBadge size={25} />
-              <h2 className="text-lg font-bold">Experience</h2>
-              <p className="text-sm text-gray-500"> Project Based Virtual Intern : Fullstack Developer BTPN Syariah x Rakamin Academy</p>
-            </div>
-            <div className="flex flex-col items-center h-full w-[350px] md:w-full border border-black p-6 rounded-xl text-center">
+      <div className="flex flex-col items-center justify-center  gap-8">
+        <div className="flex flex-col gap-8 justify-center items-center ">
+          <motion.img src="/assets/aboutbw.jpg" loading="lazy" className="w-[250px] h-[250px] border-2 rounded-xl object-cover i" alt="Profile" initial="hidden" animate={controls} variants={fadeInLeft} />
+
+          <div className="w-[350px] md:w-1/2  ">
+            <p className="text-sm text-center text-gray-800">
+              Hey! I'm Muhammad Ilham, a frontend dev studying at Universitas Negeri Surabaya. Super hyped about going fullstack! Always grinding, learning new tech, and building cool stuff. Gotta master both frontend & backend to be that
+              all-rounder dev👾
+            </p>
+          </div>
+        </div>
+        <motion.div className=" flex flex-col  md:flex-row  gap-6  md:h-[300px] " initial="hidden" animate={controls} variants={fadeInUp}>
+          {/* education */}
+          <div className="flex flex-col    w-[350px] md:w-full border border-black p-6 rounded-xl">
+            <div className="flex flex-col items-center ">
               <MdOutlineCastForEducation size={25} />
               <h2 className="text-lg font-bold">Education</h2>
-              <p className="text-sm text-gray-500">• Universitas Negeri Surabaya</p>
-              <p className="text-sm text-gray-500">• SMAN 2 Tanggul</p>
             </div>
+            <ul className="mt-4 flex flex-col gap-2">
+              <li className="text-sm text-gray-700">Universitas Negeri Surabaya</li>
+              <li className="text-sm text-gray-700">SMAN 2 Tanggul</li>
+            </ul>
           </div>
-          <div className="w-[350px] md:w-full  ">
-            <p className="text-sm text-gray-600">
-              Hello! My name is Muhammad Ilham, and I am a frontend developer currently studying at Universitas Negeri Surabaya. I am deeply passionate about expanding my skills and becoming a fullstack developer. With a strong
-              determination, I continue to learn and work on various projects to master both frontend and backend technologies. I believe that by combining these skills, I can reach my full potential as a versatile and well-rounded
-              developer.
-            </p>
+
+          {/* experience */}
+          <div className="flex flex-col items-center   w-[350px] md:w-full border border-black p-6 rounded-xl ">
+            <SlBadge size={25} />
+            <h2 className="text-lg font-bold">Experience</h2>
+            <ul className="mt-4 flex flex-col gap-2">
+              <li className="text-sm text-gray-700 ">Project Based Virtual Intern : Fullstack Developer BTPN Syariah x Rakamin Academy</li>
+              <li className="text-sm text-gray-700">Project Based Virtual Intern : Mobile Developer Bank Mandiri x Rakamin Academy</li>
+              <li className="text-sm text-gray-700">Web Development - Kersa ID</li>
+              <li className="text-sm text-gray-700">Mobile Development - SLP Community</li>
+            </ul>
           </div>
         </motion.div>
       </div>
