@@ -8,14 +8,14 @@ import { VscVscode } from "react-icons/vsc";
 
 const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col items-center justify-center gap-10  min-h-screen mt-20">
+    <div id="experience" className="flex flex-col items-center justify-center gap-10  min-h-screen mt-20 ">
       <div className="text-center">
         <p className="text-lg text-gray-700">Explore</p>
         <h1 className="text-3xl font-bold">My Skills</h1>
       </div>
 
       {/* Container for Skills */}
-      <div className="flex flex-wrap justify-center  gap-8 w-full max-w-5xl">
+      <div className="flex flex-wrap justify-center  gap-8 w-full px-6 md:px-0 md:w-4/5">
         {/* Frontend Development */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
