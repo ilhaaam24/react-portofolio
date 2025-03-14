@@ -27,7 +27,7 @@ const Project = () => {
           <div className="flex flex-col  bg-white shadow-md  rounded-lg overflow-hidden h-[300px] w-[300px] hover:-translate-y-1 duration-300 px-4 pt-4" key={index}>
             <img src={project.image} className="w-full h-[250px] object-cover rounded-md" alt="Project 1" />
             <div className="py-4">
-              <h2 className="text-md font-semibold">{project.title}</h2>
+              <h2 className="text-md font-medium">{project.title}</h2>
               <p className="text-xs text-gray-500 mt-1">{project.tool}</p>
             </div>
           </div>
